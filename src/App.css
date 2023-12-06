@@ -1,0 +1,40 @@
+*{
+    padding:0px;
+    margin:none;
+}
+.filterNav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.2rem 1rem;
+    background-color: rgba(231, 229, 229, 0.616);
+    height:13vh;
+    box-sizing: border-box;
+}
+.filterNav h1{
+    color:rgb(96, 96, 124);
+}
+.filters{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    justify-content: flex-end;
+}
+.productList{
+    height:87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap:1rem;
+    background-color:rgb(213, 213, 216);
+    box-sizing: border-box;
+}
+.productList h1{ 
+    color:rgb(96, 96, 124);
+
+}
+.productList span{
+    color:rgb(87, 87, 119)
+}
+
